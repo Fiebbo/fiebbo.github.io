@@ -34,7 +34,7 @@ tagline:               >
   My little online space
 
 # A list of keywords for your blog.
-keywords:              []
+keywords:              [tech, engineering, blog, life]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -42,13 +42,14 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <ehsan> <Ahmadi>
-  email:               <fiiebbo@gmail.com>
+  name:                Ehsan Ahmadi
+  email:               fiiebbo@gmail.com
+  picture:  /assets/img/me.jpg
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2017. All rights reserved.
+copyright:             © 2018. All rights reserved.
 
 # Format of the permalinks
 permalink:             pretty
@@ -208,11 +209,11 @@ remote_theme: qwtel/hydejack@gem-7.5.1
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
+social:
+  name:                Ehsan Ahmadi
+  links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+    - https://github.com/fiebbo
 
 
 # Other Plugins
@@ -250,5 +251,3 @@ sass:
 # so that the location of the feed XML stays the same.
 # feed:
 #   path:                atom.xml
-
-theme: jekyll-theme-cayman
